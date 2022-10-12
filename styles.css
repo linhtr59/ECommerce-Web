@@ -1,0 +1,284 @@
+body, html{
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+    margin:0
+}
+
+p{
+    font-size: medium;
+    font-family: 'Cormorant', serif;
+
+}
+
+nav{
+    background:rgb(56, 52, 52);
+    color: rgb(210, 151, 41);
+    
+}
+
+.navbar-item{
+    margin-right: 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+    color:rgba(172, 98, 37, 0.966);
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.navbar-item:hover{
+    -webkit-transform: scale(1.1);
+    transition: 0.4s;
+    color:rgba(244, 167, 51, 0.966);
+    font-weight: lighter;
+}
+
+.main-page{
+    width: 100vw;
+    height: 95vh;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 92%;
+    text-align: center;
+    position: relative;
+}
+
+.twenty, .res{
+    color: rgb(255,255,255,0.85);
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    position: absolute;
+    font-weight: lighter;
+}
+
+
+.twenty{
+    font-size: 4rem;
+    top: 50%;
+    left:30%;
+}
+
+.res{
+    font-size: 2rem;
+    top: 60%;
+    left:40%;
+}
+
+
+.home-btn{
+    top: 90%;
+    left: 30%;
+}
+    
+#home-button{
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+    font-family: 'Cormorant', serif;
+    font-weight: lighter;
+    width: 30%;
+    height: 10vh;
+}
+
+.contact{
+    background-color: rgb(56, 52, 52);
+    color: white;
+    font-size: medium;
+    font-family: fantasy;
+}
+
+
+.info{
+    margin-left:10%;
+}
+
+.map{
+    height: 50vh;
+    background-image: url(./map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background-color: rgb(219, 219, 219);
+}
+
+.footer-box{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Cormorant', serif;
+}
+
+.footer-name{
+    color:rgba(172, 98, 37, 0.966);
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+.picture{
+    background-image: url(./pic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 40vh;
+}
+
+.about{
+    font-size: medium;
+    font-family: 'Cormorant', serif;
+
+}
+
+.about-book{
+    color:white;
+    background-color:rgba(235, 133, 49, 0.966) ;
+    border: none;
+    border-radius: 5px;
+    height: 7vh;
+    width: 30%;
+}
+
+
+.menu-pic{
+    background-image: url(./menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    color:white;
+    text-align: center;
+    border: none;
+}
+
+.menu-wine{
+    bottom: 50%;
+    font-family: 'Cormorant', serif;
+    box-shadow: 1px 1px black;
+}
+
+
+.menu-btn{
+    text-decoration: none;
+    color: black;
+    border: solid 3px black;
+    background-color: transparent;
+    height: 10vh;
+    width: 20vw;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+.menu-btn:link{
+    text-decoration: none;
+}
+
+
+.menu-btn:hover{
+    text-decoration: none;
+    color: rgba(235, 133, 49, 0.966);
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    -webkit-transform: scale(1.1);
+    transition: 0.4s;
+}
+
+
+.gallery{
+    background-image:url(./gallery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+
+}
+
+
+.gallery-des{
+    text-align: center;
+}
+
+
+img:hover{
+    -webkit-transform: scale(1.1);
+}
+
+
+.runaway-button{
+    align-items: center;
+    width: 40%;
+    height: 30vh;
+    color: black;
+    background-color: transparent;
+
+}
+
+#runaway-button{
+    left:40%;
+}
+
+
+.contact-image{
+    background-image:url(./contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+
+}
+
+
+.contact-map{
+    background-image:url(./map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 50vh;
+
+}
+
+.contact-container{
+    font-size: large;
+    font-family: 'Cormorant', serif;
+}
+
+input{
+    width: 80%;
+    height: 5vh;
+    
+}
+
+textarea{
+    width: 80%;
+    height: 15vh;
+
+}
+
+.orange{
+    color:rgba(172, 98, 37, 0.966);
+    font-size: larger;
+    font-family: 'Cormorant', serif;
+    font-weight: bolder;
+}
+
+
+.booking-image{
+    background-image:url(./booking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+
+}
+
+
+.booking-info{
+    list-style:disc;
+    left: 20%;
+    font-size: medium;
+
+    font-family: 'Cormorant', serif;
+}
